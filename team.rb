@@ -2,11 +2,11 @@
 class Team
    attr_accessor :name, :win, :lose, :draw
       #initialize の処理を定義
-    def initialize(name,win,lose,draw)
-       self.name = name
-       self.win = win
-       self.lose = lose
-       self.draw = draw
+    def initialize(name_hikisu, win_hikisu, lose_hikisu, draw_hikisu)
+       self.name = name_hikisu
+       self.win = win_hikisu
+       self.lose = lose_hikisu
+       self.draw = draw_hikisu
     end
      
          def calc_win_rate 
